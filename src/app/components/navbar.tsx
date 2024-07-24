@@ -6,29 +6,31 @@ import p from "../../../public/img/p.svg";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between p-6 mb-[10px] px-10 w-full">
+    <nav className="flex items-center justify-between pt-7 pb-3 mb-[10px] px-10 w-full">
       <div className="flex items-center space-x-4">
         <div className="text-black font-bold text-[25px]">UmrohYuk</div>
       </div>
-      <div className="flex items-center space-x-4">
-        <i className="text-black">
+      <div className="flex items-center space-x-5">
+        <div className="text-black flex">
           <Image src={k} alt="Icon" className="h-10" />
-        </i>
-        <a href="#" className="text-black font-semibold">
-          Paket Umroh
-        </a>
-        <i className="text-black">
+          <a href="#" className="text-black font-semibold mt-2">
+            Paket Umroh
+          </a>
+        </div>
+
+        <div className="text-black flex">
           <Image src={i} alt="Icon" className="h-10" />
-        </i>
-        <a href="#" className="text-black font-semibold">
-          Tentang Kami
-        </a>
-        <i className="text-black">
+          <a href="#" className="text-black font-semibold mt-2">
+            Tentang Kami
+          </a>
+        </div>
+
+        <div className="text-black flex">
           <Image src={p} alt="Icon" className="h-10" />
-        </i>
-        <a href="#" className="text-black font-semibold">
-          Mitra Kami
-        </a>
+          <a href="#" className="text-black font-semibold mt-2 mx-2">
+            Mitra Kami
+          </a>
+        </div>
       </div>
 
       <div className="flex items-center space-x-4">

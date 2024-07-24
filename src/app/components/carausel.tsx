@@ -13,11 +13,11 @@ export default function SimpleSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2500,
   };
   return (
     <Slider {...settings}>
-      <div className="px-10">
+      <div className="px-10 bg-center">
         <Image
           className="w-[1200px] h-[450px] rounded-lg"
           src="/img/bg/umroh.jpg"
