@@ -5,7 +5,7 @@ import React from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 
-export default function SimpleSlider() {
+export default function Carausel1() {
   var settings = {
     dots: true,
     infinite: true,

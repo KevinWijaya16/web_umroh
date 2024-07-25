@@ -16,4 +16,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .gradient-box {
+    background: linear-gradient(to right, #ffffff 40%, #c69028 40%);
+  }
 }
