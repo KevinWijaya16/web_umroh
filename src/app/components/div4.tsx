@@ -4,7 +4,7 @@ function Div4() {
   return (
     <div>
       <div
-        className="flex flex-col h-[1000px] items-start justify-start overflow-hidden bg-white"
+        className="flex flex-col h-[1000px] items-start justify-start bg-white"
         style={{ backgroundImage: "url('/img/bg/bg2.png')" }}
       >
         <div className="grid grid-cols-2 w-full h-full">

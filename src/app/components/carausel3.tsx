@@ -14,7 +14,7 @@ function Carausel3() {
     autoplaySpeed: 2500,
   };
   return (
-    <div className="flex flex-col bg-black h-[405px] items-start justify-start overflow-hidden">
+    <div className="flex flex-col bg-black h-[405px] items-start justify-start">
       <div className="flex mx-[46px] my-[30px] w-full mb-20">
         <p className="text-white w-[205px] h-[29px]">100+ Biro Travel</p>
         <p className="text-white ml-[860px]">Mitra Kami</p>
@@ -30,6 +30,7 @@ function Carausel3() {
                 width={200}
                 height={200}
               />
+              <div className="text-white text-center mt-2">Lorem Ipsum</div>
             </div>
             <div className="px-3 bg-center">
               <Image
@@ -39,6 +40,7 @@ function Carausel3() {
                 width={200}
                 height={200}
               />
+              <div className="text-white text-center mt-2">Lorem Ipsum</div>
             </div>
             <div className="px-3 bg-center">
               <Image
@@ -48,6 +50,7 @@ function Carausel3() {
                 width={200}
                 height={200}
               />
+              <div className="text-white text-center mt-2">Lorem Ipsum</div>
             </div>
             <div className="px-3 bg-center">
               <Image
@@ -57,6 +60,7 @@ function Carausel3() {
                 width={200}
                 height={200}
               />
+              <div className="text-white text-center mt-2">Lorem Ipsum</div>
             </div>
             <div className="px-3 bg-center">
               <Image
@@ -66,6 +70,7 @@ function Carausel3() {
                 width={200}
                 height={200}
               />
+              <div className="text-white text-center mt-2">Lorem Ipsum</div>
             </div>
             <div className="px-3 bg-center">
               <Image
@@ -75,6 +80,7 @@ function Carausel3() {
                 width={200}
                 height={200}
               />
+              <div className="text-white text-center mt-2">Lorem Ipsum</div>
             </div>
             <div className="px-3 bg-center">
               <Image
@@ -84,6 +90,7 @@ function Carausel3() {
                 width={200}
                 height={200}
               />
+              <div className="text-white text-center mt-2">Lorem Ipsum</div>
             </div>
           </Slider>
         </div>

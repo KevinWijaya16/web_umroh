@@ -14,12 +14,12 @@ function Carausel2() {
     autoplaySpeed: 2500,
   };
   return (
-    <div className="flex flex-col bg-black h-[405px] items-start justify-start overflow-hidden">
+    <div className="flex flex-col bg-black h-[405px] items-start justify-start">
       <p className="text-white mx-[46px] my-[30px] w-[205px] h-[29px]">
         Gallery Kegiatan
       </p>
-      <div className="w-full overflow-hidden">
-        <div className="slider-container">
+      <div className="w-full">
+        <div>
           <Slider {...settings}>
             <div className="px-10 bg-center">
               <Image

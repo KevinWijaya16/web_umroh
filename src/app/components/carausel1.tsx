@@ -19,7 +19,7 @@ export default function Carausel1() {
     <Slider {...settings}>
       <div className="px-10 bg-center">
         <Image
-          className="w-[1200px] h-[450px] rounded-lg"
+          className="w-[1200px] h-[450px] rounded-3xl"
           src="/img/bg/umroh.jpg"
           alt="Logo"
           width={200}
@@ -28,7 +28,7 @@ export default function Carausel1() {
       </div>
       <div className="px-10">
         <Image
-          className="w-[1200px] h-[450px] rounded-lg"
+          className="w-[1200px] h-[450px] rounded-3xl"
           src="/img/bg/umroh2.jpeg"
           alt="Logo"
           width={200}
@@ -37,7 +37,7 @@ export default function Carausel1() {
       </div>
       <div className="px-10">
         <Image
-          className="w-[1200px] h-[450px] rounded-lg"
+          className="w-[1200px] h-[450px] rounded-3xl"
           src="/img/bg/umroh3.jpg"
           alt="Logo"
           width={200}

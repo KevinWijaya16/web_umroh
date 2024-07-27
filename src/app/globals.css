@@ -20,4 +20,8 @@ body {
   .gradient-box {
     background: linear-gradient(to right, #ffffff 40%, #c69028 40%);
   }
+
+  .bg-gradient-custom {
+    background: linear-gradient(to right, #f8cd7b 60%, #f8cd7b 70%, white 90%);
+  }
 }

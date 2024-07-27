@@ -13,11 +13,13 @@ function Lwe() {
             <div className="font-semibold text-left text-md py-2 mt-1">
               Lokasi Keberangkatan
             </div>
-            <div className="bg-white rounded-md border border-[#959595] w-[275] h-[37px] text-black flex items-center">
+            <div className="bg-white rounded-md border border-[#959595] w-[210px] h-[37px] text-black flex items-center">
               <Image src={map} alt="Icon" className="mx-2 w-5 h-5" />
-              <p className="text-[#959595] font-semibold text-xs">
-                Pilih Lokasi Keberangkatan
-              </p>
+              <input
+                type="text"
+                placeholder="Pilih Lokasi Keberangkatan"
+                className="text-black font-semibold text-xs outline-none flex-1"
+              />
             </div>
           </div>
 
@@ -25,11 +27,13 @@ function Lwe() {
             <div className="font-semibold text-left text-md py-2 mt-1">
               Waktu Keberangkatan
             </div>
-            <div className="bg-white rounded-md border border-[#959595] w-[275] h-[37px] text-black flex items-center">
+            <div className="bg-white rounded-md border border-[#959595] w-[210px] h-[37px] text-black flex items-center">
               <Image src={jam} alt="Icon" className="mx-2 w-5 h-5" />
-              <p className="text-[#959595] font-semibold text-xs">
-                Pilih Waktu Keberangkatan
-              </p>
+              <input
+                type="text"
+                placeholder="Pilih Waktu Keberangkatan"
+                className="text-black font-semibold text-xs outline-none flex-1"
+              />
             </div>
           </div>
 
@@ -37,11 +41,13 @@ function Lwe() {
             <div className="font-semibold text-left text-md py-2 mt-1">
               Estimasi Biaya Umroh
             </div>
-            <div className="bg-white rounded-md border border-[#959595]  w-[275] h-[37px] text-black flex items-center">
+            <div className="bg-white rounded-md border border-[#959595] w-[210px] h-[37px] text-black flex items-center">
               <Image src={buy} alt="Icon" className="mx-2 w-5 h-5" />
-              <p className="text-[#959595] font-semibold text-xs">
-                Pilih Estimasi Biaya Umroh
-              </p>
+              <input
+                type="text"
+                placeholder="Pilih Estimasi Biaya Umroh"
+                className="text-black font-semibold text-xs outline-none flex-1"
+              />
             </div>
           </div>
 
