@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../card";
+import Link from "next/link";
 
 function ListCard() {
   return (
@@ -18,11 +19,13 @@ function ListCard() {
         <Card />
         <Card />
       </div>
-      <div className="mt-[46px] mb-[45px] flex items-center justify-center">
-        <button className="bg-black text-white font-bold py-[25px] px-[100px] rounded">
-          Tampilkan Lebih Banyak
-        </button>
-      </div>
+      <Link href="/pesan">
+        <div className="mt-[46px] mb-[45px] flex items-center justify-center">
+          <button className="bg-black text-white font-bold py-[25px] px-[100px] rounded">
+            Tampilkan Lebih Banyak
+          </button>
+        </div>
+      </Link>
     </div>
   );
 }

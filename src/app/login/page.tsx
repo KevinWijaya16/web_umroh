@@ -5,10 +5,12 @@ import ceklis from "../../../public/img/ceklis.svg";
 import people2 from "../../../public/img/people2.svg";
 import car from "../../../public/img/car.svg";
 import kabah from "../../../public/img/kabah.svg";
+import Navbar from "../components/navbar";
 
 function Page() {
   return (
-    <div className="flex flex-col h-[550px] bg-gradient-custom">
+    <div className="flex flex-col h-[630px] bg-gradient-custom">
+      <Navbar />
       <div
         className="absolute inset-0 h-screen bg-cover bg-center opacity-40"
         style={{ backgroundImage: 'url("/img/bg/m.png")' }}
@@ -22,7 +24,7 @@ function Page() {
         <p className="font-semibold text-[15px] mx-16 mb-1">Masuk Akun</p>
       </div>
       <div className="grid grid-cols-3 gap-4">
-        <div className="col-span-1 bg-white p-4 mx-12 rounded-xl h-[280px]">
+        <div className="col-span-1 bg-white z-10 p-4 mx-12 rounded-xl h-[280px]">
           <form>
             <div className="mb-[28px]">
               <input
@@ -50,7 +52,9 @@ function Page() {
             <div>
               <p className="font-semibold text-[14px]">
                 Belum Mempunyai Akun?
-                <span className="text-[#E3B02B]"> Daftar Disini</span>
+                <Link href={"/register"}>
+                  <span className="text-[#E3B02B]"> Daftar Disini</span>
+                </Link>
               </p>
             </div>
           </form>
