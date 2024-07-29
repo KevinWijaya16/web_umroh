@@ -38,14 +38,14 @@ function Page() {
                 placeholder="Password"
               />
             </div>
-            <a>
+            <Link href="/">
               <button
                 type="submit"
                 className="w-[290px] h-[50px] text-white bg-[#E3B02B] py-2 rounded mb-[28px]"
               >
                 Masuk
               </button>
-            </a>
+            </Link>
 
             <div>
               <p className="font-semibold text-[14px]">

@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import k from "../../../public/img/k.svg";
@@ -52,9 +53,12 @@ const Navbar = () => {
           isLoginPage ? "hidden" : "flex"
         }`}
       >
-        <button className="text-black font-bold py-2 px-4 rounded">
-          Masuk
-        </button>
+        <Link href="/login">
+          <button className="text-black font-bold py-2 px-4 rounded">
+            Masuk
+          </button>
+        </Link>
+
         <button className="bg-[#E3B02B] text-white font-bold py-2 px-4 rounded">
           Daftar
         </button>
