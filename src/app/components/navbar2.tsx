@@ -15,15 +15,15 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex items-center justify-between pt-7 pb-3  px-10 w-full ${
+      className={`flex items-center justify-between pt-7 pb-3  px-10  ${
         isLoginPage ? "bg-gradient-custom" : "flex"
       }`}
     >
       <div className="items-center space-x-4">
         <div className="text-black font-bold text-[25px]">UmrohYuk</div>
       </div>
-      <div className={`flex items-center space-x-5 justify-center`}>
-        <div className="text-black flex">
+      <div className={`flex justify-center items-center space-x-5`}>
+        <div className="text-black flex ">
           <Image src={k} alt="Icon" className="h-10" />
           <a href="#" className="text-black font-semibold mt-2">
             Paket Umroh
