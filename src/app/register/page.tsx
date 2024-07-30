@@ -9,7 +9,7 @@ import Navbar from "../components/navbar";
 
 function Page() {
   return (
-    <div className="flex flex-col h-[650px] bg-gray-100">
+    <div className="flex flex-col h-[730px] bg-gray-500">
       <Navbar />
       <div
         className="absolute inset-0 h-[730px] bg-cover bg-center opacity-100"

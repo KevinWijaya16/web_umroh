@@ -4,7 +4,10 @@ import Link from "next/link";
 
 function ListCard() {
   return (
-    <div className="flex flex-col ">
+    <div
+      className="flex flex-col"
+      style={{ backgroundImage: "url('/img/bg/bg.png')" }}
+    >
       <p className="text-md text-black font-semibold text-left px-10 mt-2 mb-6">
         List Paket Umroh Yang Tersedia
       </p>

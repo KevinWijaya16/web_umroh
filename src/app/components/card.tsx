@@ -10,7 +10,6 @@ import hotel from "../../../public/img/hotel.svg";
 function Card() {
   return (
     <div>
-      {/* <div className="" style={{ backgroundImage: "url('/img/bg/bg.png')" }}> */}
       <div className="bg-white shadow-3xl rounded-lg  p-4 ">
         <div className="flex mb-[12px]">
           <div className=" flex flex-col justify-center w-[75%]">

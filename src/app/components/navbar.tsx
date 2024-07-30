@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <div
         className={`flex items-center space-x-5 ${
-          isLoginPage ? "mr-[350px]" : "flex"
+          isLoginPage || isRegisterPage ? "mr-[350px]" : "flex"
         }`}
       >
         <div className="text-black flex">
@@ -50,7 +50,7 @@ const Navbar = () => {
 
       <div
         className={`flex items-center space-x-4 ${
-          isLoginPage ? "hidden" : "flex"
+          isLoginPage || isRegisterPage ? "hidden" : "flex"
         }`}
       >
         <Link href="/login">
