@@ -24,7 +24,7 @@ function Page() {
         <p className="font-semibold text-[15px] mx-16 mb-1">Masuk Akun</p>
       </div>
       <div className="grid grid-cols-3 gap-4">
-        <div className="col-span-1 bg-white z-10 p-4 mx-12 rounded-xl h-[280px]">
+        <div className="col-span-1 bg-white p-4 mx-12 my-3 rounded-xl">
           <form>
             <div className="mb-[28px]">
               <input
@@ -40,23 +40,12 @@ function Page() {
                 placeholder="Password"
               />
             </div>
-            <Link href="/">
-              <button
-                type="submit"
-                className="w-[290px] h-[50px] text-white bg-[#E3B02B] py-2 rounded mb-[28px]"
-              >
-                Masuk
-              </button>
-            </Link>
-
-            <div>
-              <p className="font-semibold text-[14px]">
-                Belum Mempunyai Akun?
-                <Link href={"/register"}>
-                  <span className="text-[#E3B02B]"> Daftar Disini</span>
-                </Link>
-              </p>
-            </div>
+            <button
+              type="submit"
+              className="w-[290px] h-[50px] text-white bg-[#E3B02B] py-2 rounded "
+            >
+              Masuk
+            </button>
           </form>
         </div>
 

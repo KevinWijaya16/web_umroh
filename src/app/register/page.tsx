@@ -17,7 +17,7 @@ function Page() {
       ></div>
       <div className="flex flex-col">
         <p className="text-[30px] text-white z-10 font-bold text-left px-16 mt-16 my-[10px]">
-          Selamat Datang!
+          SELAMAT
         </p>
       </div>
       <div>
