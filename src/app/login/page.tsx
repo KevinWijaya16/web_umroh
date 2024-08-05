@@ -44,7 +44,7 @@ function Page() {
               type="submit"
               className="w-[290px] h-[50px] text-white bg-[#E3B02B] py-2 rounded "
             >
-              Masuk
+              Login
             </button>
           </form>
         </div>
