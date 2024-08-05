@@ -21,7 +21,7 @@ function Page() {
         </p>
       </div>
       <div>
-        <p className="font-semibold text-[15px] mx-16 mb-1">Masuk Akun</p>
+        <p className="font-semibold text-[15px] mx-16 mb-1">Masukan akun</p>
       </div>
       <div className="grid grid-cols-3 gap-4">
         <div className="col-span-1 bg-white p-4 mx-12 my-3 rounded-xl">
