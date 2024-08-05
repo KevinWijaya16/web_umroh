@@ -8,7 +8,7 @@ function Lwe() {
   return (
     <div>
       <div className="flex flex-col items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 bg-white shadow-2xl px-[18px] w-[930px] h-[120px] -translate-y-11 rounded-lg">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 dark:bg-white shadow-2xl px-[18px] w-[930px] h-[120px] -translate-y-11 rounded-lg">
           <div className="mt-3">
             <div className="font-semibold text-left text-md py-2 mt-1">
               Lokasi Keberangkatan

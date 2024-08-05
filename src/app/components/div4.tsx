@@ -20,8 +20,8 @@ function Div4() {
             </p>
 
             <div className="w-full">
-              <div className="h-[90px] bg-[#959595] mb-[30px] p-2 rounded flex items-center">
-                <div className="h-[65px] w-[65px] rounded-sm bg-white mr-[23px]"></div>
+              <div className="h-[90px] bg-[#959595] mb-[30px] p-2 rounded-xl flex items-center">
+                <div className="h-[65px] w-[65px] rounded-xl mx-2 bg-[#E3B02B] mr-[23px]"></div>
                 <div className="flex flex-col">
                   <span className="text-white font-semibold mb-1">
                     Lorem Ipsum Dolor Sit Amet
@@ -31,20 +31,8 @@ function Div4() {
                   </span>
                 </div>
               </div>
-              <div className="h-[90px] bg-[#959595] mb-[30px] p-2 rounded flex items-center">
-                <div className="h-[65px] w-[65px] rounded-sm bg-white mr-[23px]"></div>
-                <div className="flex flex-col">
-                  <span className="text-white font-semibold mb-1">
-                    Lorem Ipsum Dolor Sit Amet
-                  </span>
-                  <span className="text-white text-xs">
-                    Lorem Ipsum Dolor Sit AmetLorem Ipsum Dolor Sit Amet
-                  </span>
-                </div>
-              </div>
-
-              <div className="h-[90px] bg-[#959595] mb-[30px] p-2 rounded flex items-center">
-                <div className="h-[65px] w-[65px] rounded-sm bg-white mr-[23px]"></div>
+              <div className="h-[90px] bg-[#959595] mb-[30px] p-2 rounded-xl flex items-center">
+                <div className="h-[65px] w-[65px] rounded-xl mx-2 bg-[#E3B02B] mr-[23px]"></div>
                 <div className="flex flex-col">
                   <span className="text-white font-semibold mb-1">
                     Lorem Ipsum Dolor Sit Amet
@@ -55,8 +43,20 @@ function Div4() {
                 </div>
               </div>
 
-              <div className="h-[90px] bg-[#959595] mb-[30px] p-2 rounded flex items-center">
-                <div className="h-[65px] w-[65px] rounded-sm bg-white mr-[23px]"></div>
+              <div className="h-[90px] bg-[#959595] mb-[30px] p-2 rounded-xl flex items-center">
+                <div className="h-[65px] w-[65px] rounded-xl mx-2 bg-[#E3B02B] mr-[23px]"></div>
+                <div className="flex flex-col">
+                  <span className="text-white font-semibold mb-1">
+                    Lorem Ipsum Dolor Sit Amet
+                  </span>
+                  <span className="text-white text-xs">
+                    Lorem Ipsum Dolor Sit AmetLorem Ipsum Dolor Sit Amet
+                  </span>
+                </div>
+              </div>
+
+              <div className="h-[90px] bg-[#959595] mb-[30px] p-2 rounded-xl flex items-center">
+                <div className="h-[65px] w-[65px] rounded-xl mx-2 bg-[#E3B02B] mr-[23px]"></div>
                 <div className="flex flex-col">
                   <span className="text-white font-semibold mb-1">
                     Lorem Ipsum Dolor Sit Amet
