@@ -21,7 +21,7 @@ function Div5putih() {
         </p>
       </div>
       <div className="mx-[90px] mt-[20px] font-bold text-[15px] text-[#E3B02B]">
-        <p>Lainnya...</p>
+        <a href="/kosong">Lainnya...</a>
       </div>
     </div>
   );
